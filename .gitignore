@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.env
+*.log
+
+# Environments
+env/
+venv/
+ENV/
+*.venv
+
+# Django
+*.sqlite3
+*.db
+*.pot
+*.pyc
+*.pyo
+local_settings.py
+db.sqlite3
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Static & Media
+/staticfiles/
+/media/
+/node_modules/
+
+# Redis cache
+*.rdb
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing
+.coverage
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.cache/
+
+# Migrations (optional)
+**/migrations/__pycache__/
+**/migrations/*.pyc
